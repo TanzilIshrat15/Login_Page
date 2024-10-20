@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color:blueviolet;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    
+    
+}
+form{
+    width: 350px;
+    height: 360px;
+    background-color: white;
+    border-radius: 11px;
+    padding:20px 30px;
+    margin: 10px;
+
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom:20px;
+    font-family:cursive;
+    color: blueviolet;
+}
+#mail{
+    width: 100%;
+    height: 44px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    outline: none;
+    padding:0px 13px;
+    margin-bottom: 25px;
+    font-weight: bolder;
+    font-size: 18px;
+    
+}
+
+#pass{
+    width: 100%;
+    height: 44px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    outline: none;
+    padding: 0px 13px;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+
+
+    
+}
+form .inputbox i{
+    position: absolute;
+    left:58%;
+    bottom: 45%;
+    cursor: pointer;
+}
+
+form .input-box i{
+    position: absolute;
+    left:58%;
+    top: 44%;
+    cursor: pointer;
+}
+button{
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: blueviolet;
+    color: white;
+    outline: none;
+    border: 1px solid grey;
+}
+
+
